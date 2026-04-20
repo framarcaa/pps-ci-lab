@@ -4,11 +4,6 @@ on:
 jobs:
   Build: # Job name
     runs-on: ubuntu-latest # Operating system selection
-<<<<<<< HEAD
-    env: # Environment can be controlled at the job or step level
-      TERM: dumb # Sets the environment variable TERM to "dumb"
-=======
->>>>>>> 0c73a1c (created ci.yml, created Teacher class and modified build gradle)
     steps:
       - name: Checkout # custom name Checkout the repository
         uses: actions/checkout@v6 # Action implemented in this repository, tag starting with "v6"
