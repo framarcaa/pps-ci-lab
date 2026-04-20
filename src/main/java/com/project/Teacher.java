@@ -1,3 +1,5 @@
+package com.project;
+
 class Teacher {
     private String name;
     private String subject;
