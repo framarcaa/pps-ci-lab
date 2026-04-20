@@ -8,4 +8,7 @@ public class Student {
   public String getName() {
     return name;
   }
+  public void setName() {
+    this.name = name;
+  }
 }
