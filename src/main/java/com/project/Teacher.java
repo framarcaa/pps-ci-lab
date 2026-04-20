@@ -1,6 +1,6 @@
 package com.project;
 
-class Teacher {
+public class Teacher {
     private String name;
     private String subject;
 

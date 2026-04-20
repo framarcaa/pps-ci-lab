@@ -21,5 +21,10 @@ dependencies {
     // https://mvnrepository.com/artifact/org.scala-lang/scala3-library
     implementation("org.scala-lang:scala3-library_3:${scalaVersion}")
     testImplementation("org.scalatest:scalatest_$scalaMinor:3.2.12")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.12.2")
     testRuntimeOnly("com.vladsch.flexmark:flexmark-all:0.64.8")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
