@@ -1,6 +1,6 @@
 package com.project;
 
-public class Tutor {
+class Tutor {
     private String name;
 
     public Tutor(String name) {
